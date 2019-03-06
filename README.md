@@ -345,9 +345,9 @@ implementation 'com.estimote:mustard:0.2.1'
 // KOTLIN
 RequirementsWizardFactory.createEstimoteRequirementsWizard().fulfillRequirements(
             YOUR_ACTIVITY_CONTEXT_HERE,
-            onRequirementsFulfilled : { /* start the ProximityObserver here! */ },
-            onRequirementsMissing: { /* scanning won't work, handle this case in your app */ },
-            onError: { /* Oops, some error occurred, handle it here! */ })
+            onRequirementsFulfilled = { /* start the ProximityObserver here! */ },
+            onRequirementsMissing = { /* scanning won't work, handle this case in your app */ },
+            onError = { /* Oops, some error occurred, handle it here! */ })
 ```
 
 ``` Java
